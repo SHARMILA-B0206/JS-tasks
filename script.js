@@ -20,7 +20,7 @@ console.log("User Age:", userPromptAge);
 
 // 4: Ask the user a question using confirm()
 let likesProgramming = confirm("Do you like programming?");
-console.log("Likes programming?:", likesProgramming); // Prints true (OK) or false (Cancel)
+console.log("Likes programming?:", likesProgramming); 
 
 
 // 5: Ask the user's name and display it on the webpage using document.writeln()
