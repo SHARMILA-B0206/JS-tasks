@@ -28,7 +28,7 @@ Ans: Initialization means giving the first value to a declared variable. Example
 Ans: Reassignment means giving a new value to an already existing variable. Example: x = 20;
 
 9. What is redeclaration?
-Ans: Redeclaration means declaring the same variable again using var/let/const.
+Ans: Redeclaration means declaring the same variable name again with the same keyword.
 
 10. Which keyword allows redeclaration?
 Ans: var
@@ -41,7 +41,8 @@ Ans: const
 
 13. Identify the declaration and initialization:
 let age = 25;
-Ans: Declaration - let age, Initialization - = 25
+Ans: Declaration - let age
+     Initialization - = 25
 
 14. What is the value of a?
 var a = 100;
@@ -105,7 +106,7 @@ var city = "Salem";
 
 
 LET (26-35)
-
+-----------
 
 26. Create a let variable named age with the value 25.
 Ans: let age = 25;
@@ -125,13 +126,15 @@ Ans: No
 30. Find the error:
 let name = "John";
 let name = "David";
-Ans: Error - Identifier 'name' has already been declared (let does not allow redeclaration)
+Ans: Error - let does not allow redeclaration.
 
 31. Create a let variable called city and assign "Chennai".
 Ans: let city = "Chennai";
 
 32. Change the value of city to "Salem".
-Ans: city = "Salem";
+Ans:
+let city = "Chennai";
+city = "Salem";
 
 33. What will be the output?
 let x = 10;
@@ -143,10 +146,13 @@ Ans: 50
 Ans: let salary = 25000;
 
 35. Reassign salary to 30000.
-Ans: salary = 30000;
+Ans:
+let salary = 25000;
+salary = 30000;
+
 
 CONST (36-45)
-
+-------------
 
 36. Create a const variable called pi with the value 3.14.
 Ans: const pi = 3.14;
@@ -160,12 +166,12 @@ Ans: No
 39. What is wrong with this code?
 const age;
 age = 25;
-Ans: Error - const must be initialized with a value at the time of declaration (Missing initializer in const declaration)
+Ans: Error - const must be initialized with a value when declared.
 
 40. What happens here?
 const price = 500;
 price = 1000;
-Ans: Error - TypeError: Assignment to constant variable.
+Ans: Error - const cannot be reassigned.
 
 41. Create a const variable called country with the value "India".
 Ans: const country = "India";
@@ -179,15 +185,14 @@ Ans: 100
 Ans: const
 
 44. What is the difference between let and const?
-Ans: let can be reassigned but not redeclared. const cannot be reassigned and cannot be redeclared.
+Ans: let can be reassigned but cannot be redeclared. const cannot be reassigned and cannot be redeclared.
 
 45. What is the difference between var and const?
-Ans: var has function/global scope and allows redeclaration and reassignment.
-     const has block scope and does not allow redeclaration or reassignment.
+Ans: var allows redeclaration and reassignment, but const does not allow redeclaration or reassignment.
 
 
 PRINTING & CONSOLE (46-50)
--------------------------
+--------------------------
 
 46. Write JavaScript code to print Hello World using console.log().
 Ans: console.log("Hello World");
@@ -196,14 +201,15 @@ Ans: console.log("Hello World");
 Ans: console.log(500);
 
 48. What is the purpose of console.warn()?
-Ans: It displays a warning message in the console, usually shown in yellow color.
+Ans: It is used to display a warning in the console.
 
 49. What is the purpose of console.error()?
-Ans: It displays an error message in the console, usually shown in red color.
+Ans: It is used to display an error in the console.
 
 50. What is the purpose of each?
-alert() - shows a popup message box
-prompt() - takes input from the user through a popup
-confirm() - shows a popup with OK/Cancel buttons and returns true/false
-document.writeln() - prints content directly on the webpage
-console.log() - prints output in the browser console
+Ans:
+alert() - displays a message to the user.
+prompt() - gets input from the user.
+confirm() - asks the user for confirmation.
+document.writeln() - displays content on the webpage.
+console.log() - prints output in the console.
