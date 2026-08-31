@@ -20,7 +20,6 @@ console.log("After change, Age:", studentAge);
 
 // 4. Try changing the const value and observe the error
 // collegeName = "ESSP College";
-// Uncommenting the line above throws:
 // TypeError: Assignment to constant variable.
 
 // 5. Try redeclaring the var variable (this works fine, no error)
@@ -29,7 +28,6 @@ console.log("Redeclared var Name:", studentName);
 
 // 6. Try redeclaring the let variable and observe the error
 // let studentAge = 25;
-// Uncommenting the line above throws:
 // SyntaxError: Identifier 'studentAge' has already been declared
 
 
@@ -161,8 +159,8 @@ console.log("\n----- TASK 11 -----");
 
 let a11 = 10;
 let b11 = a11++;
-console.log("a:", a11); // 11
-console.log("b:", b11); // 10
+console.log("a:", a11); 
+console.log("b:", b11); 
 
 
 /* TASK 12 — Pre Increment */
@@ -174,8 +172,8 @@ console.log("\n----- TASK 12 -----");
 
 let a12 = 10;
 let b12 = ++a12;
-console.log("a:", a12); // 11
-console.log("b:", b12); // 11
+console.log("a:", a12); 
+console.log("b:", b12); 
 
 
 /* TASK 13 — Post Decrement*/
@@ -187,8 +185,8 @@ console.log("\n----- TASK 13 -----");
 
 let a13 = 20;
 let b13 = a13--;
-console.log("a:", a13); // 19
-console.log("b:", b13); // 20
+console.log("a:", a13); 
+console.log("b:", b13); 
 
 
 /* TASK 14 — Pre Decrement */
@@ -200,8 +198,8 @@ console.log("\n----- TASK 14 -----");
 
 let a14 = 20;
 let b14 = --a14;
-console.log("a:", a14); // 19
-console.log("b:", b14); // 19
+console.log("a:", a14); 
+console.log("b:", b14); 
 
 
 /* TASK 15 — Find the Final Values (Challenge) */
@@ -212,10 +210,10 @@ let b15 = a15++;
 let c15 = ++a15;
 let d15 = b15--;
 
-console.log("a:", a15); // 7
-console.log("b:", b15); // 4
-console.log("c:", c15); // 7
-console.log("d:", d15); // 5
+console.log("a:", a15); 
+console.log("b:", b15); 
+console.log("c:", c15); 
+console.log("d:", d15); 
 
 
 /* TASK 16 — Assignment Operators */
@@ -252,7 +250,7 @@ let profileCity = "Nagapattinam";
 const profileCollege = "EGSP Engineering College";
 
 // Array of favorite subjects
-const favoriteSubjects = ["Maths", "Science", "English", "Computer Science", "History"];
+const favoriteSubjects = ["Maths", "Science", "English", "Computer Science", "Social"];
 
 // Object
 const studentProfile = {
