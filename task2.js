@@ -1,6 +1,5 @@
 /* TASK 1 — var, let, const */
 console.log("----- TASK 1 -----");
-
 var studentName = "Sharmila";
 let studentAge = 22;
 const collegeName = "EGSP Engineering College";
@@ -133,7 +132,7 @@ const pant = 1499;
 const shoes = 1999;
 
 const total9 = shirt + pant + shoes;
-console.log("Total =", total9); // Total = 4497
+console.log("Total =", total9); 
 
 
 /* TASK 10 — Simple Marks Calculation */
@@ -154,7 +153,6 @@ console.log("Average Marks:", averageMarks.toFixed(2));
 console.log("\n----- TASK 11 -----");
 
 // PREDICTION FIRST:
-// a++ returns the ORIGINAL value of a, THEN increments a.
 // Expected: a = 11, b = 10
 
 let a11 = 10;
@@ -167,7 +165,6 @@ console.log("b:", b11);
 console.log("\n----- TASK 12 -----");
 
 // PREDICTION FIRST:
-// ++a increments a FIRST, THEN returns the new value.
 // Expected: a = 11, b = 11
 
 let a12 = 10;
@@ -180,7 +177,6 @@ console.log("b:", b12);
 console.log("\n----- TASK 13 -----");
 
 // PREDICTION FIRST:
-// a-- returns the ORIGINAL value, THEN decrements a.
 // Expected: a = 19, b = 20
 
 let a13 = 20;
@@ -193,7 +189,6 @@ console.log("b:", b13);
 console.log("\n----- TASK 14 -----");
 
 // PREDICTION FIRST:
-// --a decrements a FIRST, THEN returns the new value.
 // Expected: a = 19, b = 19
 
 let a14 = 20;
