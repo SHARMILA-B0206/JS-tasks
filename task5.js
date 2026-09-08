@@ -1,8 +1,3 @@
-// ==============================================
-// JavaScript Questions & Answers (Q1 - Q30)
-// ==============================================
-
-
 // ============ Variables & Data Types ============
 
 // Q1: Difference between var, let, const
