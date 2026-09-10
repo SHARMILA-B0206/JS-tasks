@@ -1,7 +1,7 @@
 // TASK 1 — Student Result Analyzer
 
-function studentResult(name, department, m1, m2, m3, m4, m5) {
-    let total = m1 + m2 + m3 + m4 + m5;
+function studentResult(name, department, maths, physics, programming, dataStructures, digitalElectronics) {
+    let total = maths + physics + programming + dataStructures + digitalElectronics;
     let average = total / 5;
 
     let result = average >= 50 ? "Pass" : "Fail";
